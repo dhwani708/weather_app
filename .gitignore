@@ -1,0 +1,16 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore files related pycharm
+.idea/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore files related virtual envs
+.venv
+.env
+
+# Ignore sqlite DB file
+src/db.sqlite3
+
